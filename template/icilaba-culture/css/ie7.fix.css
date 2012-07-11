@@ -1,0 +1,20 @@
+/* ie7.fix.css */
+	
+html
+{
+	overflow: hidden;
+}
+
+/* accordion */	
+	
+div#accordion div.sequence-content table
+{
+	margin: 1px;
+}
+		
+/* content.cours */
+
+div#content.cours
+{
+	float: left;
+}

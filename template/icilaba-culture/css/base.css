@@ -1,0 +1,919 @@
+/* COLOR
+---------------------------------------------------------*/
+/*
+Presque noir : #333333;
+Gris clair : #999999;
+Rouge : #FF3300;
+*/
+
+html,
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url( ./assets/background-motif.gif );
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+a:focus, 
+a:hover
+{
+	color: #ff3300;
+	text-decoration: none;
+}
+
+a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+img
+{
+	border: 0 none;
+}
+
+span.orange
+{
+	color: #ff3300;
+}
+
+	
+/* NOSCRIPT MESSAGE
+-------------------------------------------------------------- */
+
+noscript p
+{
+	margin: 0;
+	padding: 5px 10px;
+	color: #000;
+	text-align: left;
+	border-bottom: 1px solid #c0c0c0;
+	background-color: #fff8dd;
+}
+
+/* GLOBAL-CONTAINER
+-------------------------------------------------------------- */
+
+div#global-container
+{
+	width: 962px;
+	margin: 0 auto;
+}
+
+div#global-container div#header
+{
+	width: 962px;
+	height: 81px;
+	margin: 10px auto;
+	padding: 0;
+	border: 1px solid #000000;
+	background-color: #333333;
+}
+
+div#global-container div#header div#express-menu
+{
+	width: 962px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #000000;
+}
+
+div#global-container div#header div#express-menu div#direct-link
+{
+	height: 20px;
+	float: right;
+	padding: 10px 10px 0 10px;
+}
+
+div#global-container div#header div#express-menu div#direct-link ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#global-container div#header div#express-menu div#direct-link ul li
+{
+	float: right;
+}
+
+div#global-container div#header div#express-menu div#direct-link ul li + li:after
+{
+	content: " |";
+	color: #ffffff;
+	font-weight: bold;
+	padding-right: 4px;
+}
+
+div#global-container div#header div#express-menu div#direct-link ul li a
+{
+	color: #ffffff;
+}
+
+div#global-container div#header div#express-menu div#direct-link ul li a:focus,
+div#global-container div#header div#express-menu div#direct-link ul li a:hover
+{
+	color: #999999;
+}
+
+div#global-container div#header div#express-menu div#newsletter
+{
+	width: 80px;
+	height: 30px;
+	float: right;
+	padding: 0 50px 0 0;
+}
+
+div#global-container div#header div#express-menu div#newsletter a
+{
+	height: 30px;
+	display: block;
+	color: #ffffff;
+	background: url( assets/btn-newsletter.gif ) no-repeat top left;
+}
+
+div#global-container div#header div#express-menu div#newsletter a:focus,
+div#global-container div#header div#express-menu div#newsletter a:hover
+{
+	color: #999999;
+	background-position: bottom left;
+}
+
+div#global-container div#header div#express-menu div#newsletter a span
+{
+	position: relative;
+	top: 10px;
+	left: 25px;
+}
+
+div#global-container div#header div#express-menu div.list-menu
+{
+	width: 120px;
+	height: 30px;
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul.menu
+{
+	width: 120px;
+	height: 30px;
+	float: right;
+	padding: 0;
+	margin: 0 1px 0 0;
+	list-style-type: none;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul.menu a
+{
+	height: 30px;
+	display: block;
+	color: #ffffff;
+	overflow: hidden;
+}
+
+
+div#global-container div#header div#express-menu div#language ul.menu
+{
+	background: url( assets/btn-map.gif ) no-repeat top left;
+}
+
+div#global-container div#header div#express-menu div#where-to-see-us ul.menu
+{
+	background: url( assets/btn-network.gif ) no-repeat top left;
+}
+
+div#global-container div#header div#express-menu div#language ul.menu:focus,
+div#global-container div#header div#express-menu div#language ul.menu:hover
+{
+	background-position: bottom right;
+}
+
+div#global-container div#header div#express-menu div#where-to-see-us ul.menu:focus,
+div#global-container div#header div#express-menu div#where-to-see-us ul.menu:hover
+{
+	background-position: bottom right;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul.menu a:focus,
+div#global-container div#header div#express-menu div.list-menu ul.menu a:hover
+{
+	color: #999999;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul.menu a span
+{
+	position: relative;
+	top: 10px;
+}
+
+div#global-container div#header div#express-menu div#language ul.menu a span
+{
+	left: 55px;
+}
+
+div#global-container div#header div#express-menu div#where-to-see-us ul.menu a span
+{
+	left: 40px;
+}
+
+div#global-container div#header div#express-menu div#language ul.menu:focus,
+div#global-container div#header div#express-menu div#language ul.menu:hover
+{
+	margin: 0px;
+	background-color: #ffffff;
+	background-position: bottom left;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+div#global-container div#header div#express-menu div#where-to-see-us ul.menu:focus,
+div#global-container div#header div#express-menu div#where-to-see-us ul.menu:hover
+{
+	margin: 0px;
+	background-color: #ffffff;
+	background-position: bottom left;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu
+{
+	width: 120px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	position: relative;
+	left: -1px;
+	z-index: 100;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu li
+{
+	width: 120px;
+	height: 20px;
+	padding-top: 2px;
+	background-color: #ffffff;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu li a
+{
+	width: 120px;
+	height: 20px;
+	color: #999999;
+	display: block;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu li a span
+{
+	position: relative;
+	top: 4px;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu li a:focus,
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu li a:hover
+{
+	color: #ffffff;
+	background-color: #999999;
+	border: none;
+}
+
+div#global-container div#header div#express-menu div.list-menu ul ul.sub-menu
+{
+	display: none;
+}
+
+div#global-container div#header div#express-menu div.list-menu:hover > ul ul.sub-menu
+{
+	display: block;
+}
+
+div#global-container div#header div#express-menu div.list-menu:hover > ul.menu a
+{
+	color: #999999;
+}
+
+div#global-container div#header div#title
+{
+	width: 962px;
+	height: 50px;
+}
+
+div#global-container div#header div#title div#site-title
+{
+	width: 200px;
+	background: url( assets/logo-culture.gif ) no-repeat left;
+	float: left;
+}
+
+div#global-container div#header div#title div#site-title a
+{
+	width: 200px;
+	height: 50px;
+	display: block;
+}
+
+div#global-container div#header div#title div#site-title a span
+{
+	position: absolute;
+	top: -2000px;
+	left: -2000px;
+}
+
+div#global-container div#header div#title div#news-title
+{
+	height: 20px;
+	padding: 18px 0 0 50px;
+	float: left;	
+}
+
+div#global-container div#header div#title div#news-title a span
+{
+	color: #ff3300;
+	font-size: 12px;
+	text-transform:uppercase;
+}
+
+div#global-container div#header div#title div#news-title a span:before
+{
+	content: "[ ";
+}
+
+div#global-container div#header div#title div#news-title a span:after
+{
+	content: " ]";
+}
+
+div#global-container div#header div#title div#news-title a:focus,
+div#global-container div#header div#title div#news-title a:hover
+{
+	font-weight: bold;
+}
+
+div#global-container div#header div#title div#direct-access
+{
+	float: right;
+}
+
+div#global-container div#header div#title div#direct-access ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 19px 0 0 0;
+}
+
+div#global-container div#header div#title div#direct-access ul li
+{
+	float: left;
+	padding: 0px;
+}
+
+div#global-container div#header div#title div#direct-access ul li a
+{
+	height: 20px;
+	display: block;
+	color: #ffffff;
+	background: url( assets/btn-direct-access.gif ) no-repeat left top;
+}
+
+div#global-container div#header div#title div#direct-access ul li a:focus,
+div#global-container div#header div#title div#direct-access ul li a:hover
+{
+	color: #999999;
+	background-position: left bottom;
+}
+
+div#global-container div#header div#title div#direct-access ul li a span
+{
+	margin: 0 0 0 24px;
+	padding: 0 10px 0 0;
+	text-transform: uppercase;
+}
+
+div#global-container div#wrapper
+{
+	width: 962px;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+}
+
+div#global-container div#wrapper div#wrapper-header
+{
+	height: 52px;
+	padding: 0;
+}
+
+div#global-container div#wrapper div#wrapper-header div#subtitle
+{
+	width: 400px;
+	height: 26px;
+	padding: 4px 0 0 66px;
+}
+
+div#global-container div#wrapper div#wrapper-header div#subtitle span
+{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+div#global-container div#wrapper div#wrapper-header div#subtitle span:before
+{
+	content: "[ ";
+}
+
+div#global-container div#wrapper div#wrapper-header div#subtitle span:after
+{
+	content: " ]";
+}
+
+div#global-container div#wrapper div#wrapper-header div#contact
+{
+	width: 100px;
+	height: 21px;
+	padding: 9px 53px 0 0;
+	margin: -30px 0 0 0;
+	float: right;
+}
+
+div#global-container div#wrapper div#wrapper-header div#contact a span
+{
+	color: #ff3300;
+}
+
+div#global-container div#wrapper div#wrapper-header div#contact a span:before
+{
+	content: "[ ";
+}
+
+div#global-container div#wrapper div#wrapper-header div#contact a span:after
+{
+	content: " ]";
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu
+{
+	height: 20px;
+	padding: 0 67px;
+	float:none;
+	border-top: 1px dotted #1a1a1a;
+	border-bottom: 1px dotted #1a1a1a;	
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu a
+{
+	color: #999999;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu a:focus,
+div#global-container div#wrapper div#wrapper-header div#menu a:hover
+{
+	color: #000000;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul li
+{
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul li.vide
+{
+	width: 87px;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0
+{
+	height: 20px;
+	display: block;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul.menu-level-1
+{
+	height: 20px;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul.menu-level-1 li + li:before
+{
+	content: "";
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul.menu-level-1 li a
+{
+	height: 20px;
+	display: block;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul.menu-level-1 li a:focus,
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul.menu-level-1 li a:hover
+{
+	color: #ffffff;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul.menu-level-1 li a span
+{
+	position: relative;
+	top: 3px;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul li a span:before
+{
+	content: "[ ";
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul li a span:after
+{
+	content: " ]";
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul ul.menu-level-2
+{
+	display: none;
+	height: 21px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background-color: #ff3300;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul ul.menu-level-2 li
+{
+	height: 21px;
+	color: #999999;
+	padding: 0 5px;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul ul.menu-level-2 li a
+{
+	height: 21px;
+	display: block;
+	color: #ffffff;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul ul.menu-level-2 li a span
+{
+	position: relative;
+	top: 3px;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0:hover
+{
+	background-color: #ff3300;
+	color: #ffffff;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0:hover > ul ul.menu-level-2
+{
+	display: block;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0:hover > ul li a
+{
+	color: #ffffff;
+}
+
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul ul li a span:before,
+div#global-container div#wrapper div#wrapper-header div#menu ul div.menu-level-0 ul ul li a span:after
+{
+	content: "";
+}
+
+div#global-container div#wrapper div#content
+{
+	width: 940px;
+	/*height: 420px; /*A supprimmer lors de l'intégration du contenu*/
+	padding: 20px 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+div#global-container div#wrapper div#content div#accueil
+{
+	height:400px;
+	margin-left: 5px;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1
+{
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0 0 0px 25px;
+}
+
+.wrap1 {
+	width: 144px;
+	display: block;
+	margin: 0 6px 0 25px;
+	float:left;
+	background:url( assets/shadow.gif ) right bottom no-repeat;
+}
+
+.wrap2 {
+	display: block;
+	background:url( assets/corner_tr.gif ) top right no-repeat;
+}
+
+.wrap3 {
+	height: 397px;
+	background:url( assets/corner_bl.gif ) bottom left no-repeat;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li
+{
+	width: 115px;
+	height: 350px;
+	display: block;
+	border: 1px solid #999999;
+	/*border:1px solid #ccc;
+	border-color:#efefef #ccc #ccc #efefef;*/
+	float: left;
+	margin: 0 24px 0 0;
+	padding: 5px 5px 25px 5px;
+	background-color: #ffffff;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li div.first-level
+{
+	width: 115px;
+	height: 260px;
+	display: block;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li div.first-level a.image
+{
+	background: none;
+	height: 230px;
+	display: block;
+	overflow: hidden;
+	opacity : 0.6;
+    -moz-opacity : 0.6;
+    -ms-filter: "alpha(opacity=60)"; /* IE 8 */
+    filter : alpha(opacity=60); /* IE < 8 */ 
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li div.first-level:hover > a.image
+{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li div.first-level a.texte
+{
+	position: relative;
+	top: 5px;
+	width: 115px;
+	height: 20px;
+	display: block;
+	color: #ffffff;
+	background-color: #999999;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li.first div.first-level a.texte
+{
+	background-color: #ff3300;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li div.first-level:hover > a.texte
+{
+	background-color: #333333;
+}
+
+div#global-container div#wrapper div#content div#accueil ul.level-1 li div.first-level a.texte span
+{
+	position: relative;
+	top: 4px;
+	left: 10px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+div#global-container div#wrapper div#content div#accueil ul ul.level-2
+{
+	padding: 0 0 10px 0;
+	margin: 0px;
+	list-style-type: none;
+}
+
+div#global-container div#wrapper div#content div#accueil ul ul.level-2 li
+{
+	width: 105px;
+	height: 10px;
+	margin: 0;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+div#global-container div#wrapper div#content div#accueil ul ul.level-2 li a
+{
+	width: 105px;
+	height: 10px;
+	display: block;
+}
+
+div#global-container div#wrapper div#content div#accueil ul ul.level-2 li a span
+{
+	position: relative;
+	left: 5px;
+}
+
+div#global-container div#wrapper div#content div#accueil ul ul.level-2 li a:focus,
+div#global-container div#wrapper div#content div#accueil ul ul.level-2 li a:hover
+{
+	color: #ff3300;
+}
+
+div#global-container div#wrapper div#content div#contenu
+{
+	width: 825px;
+	height: 380px;
+	margin: 0 auto;
+	border: 1px solid #999999;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-title
+{
+	width: 825px;
+	height: 95px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-contenu
+{
+	width: 660px;
+	height: 285px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-contenu div#content-texte
+{
+	width: 215px;
+	height: 265px;
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	border-top: 1px solid #999999;
+	text-align: justify;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-contenu div#content-image
+{
+	width: 425px;
+	height: 285px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu
+{
+	width: 165px;
+	height: 285px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background:url( assets/page-menu.gif ) repeat;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul
+{
+	width: 165px;
+	height: 35px;
+	border-bottom: 2px dotted #ffffff;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul li
+{
+	height: 15px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul li a
+{
+	width: 145px;
+	margin: 0 auto;	
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul li a span
+{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul li a span:before
+{
+	content: "[ ";
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul li a span:after
+{
+	content: " ]";
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul ul
+{
+	width: 145px;
+	height: 250px;
+	padding-top: 15px;
+	margin-left: 10px;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul ul li a span
+{
+	font-weight: normal;
+	color: #989898;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul ul li a span:before
+{
+	content: "> ";
+	color: #ffffff;
+}
+
+div#global-container div#wrapper div#content div#contenu div#content-menu ul ul li a span:after
+{
+	content: "";
+}
+
+div#global-container div#wrapper div#content a
+{
+	color:#989898;
+}
+
+div#global-container div#wrapper div#content a:focus,
+div#global-container div#wrapper div#content a:hover
+{
+	color:#ff3300;
+}
+
+div#global-container div#wrapper div#wrapper-footer
+{
+	width: 962px;
+	height: 60px;
+	border-top: 1px dotted #1a1a1a;
+	background: url( assets/bandeau-bottom.gif ) repeat top;
+}
+
+div#global-container div#footer
+{
+	width: 962px;
+	height: 30px;
+	margin: 10px auto;
+	padding: 0;
+	border: 1px solid #000000;
+	background-color: #333333;
+}
+
+div#global-container div#footer p
+{
+	height: 22px;
+	margin: 0;
+	padding: 8px;
+	float: right;
+	color: #ffffff;	
+}
+div#global-container div#icilaba-color
+{
+	width: 25px;
+	height: 175px;
+	float: right;
+	margin: -229px -28px 0 0;
+	border: 1px solid #000000;
+}
+
+div#global-container div#icilaba-color.culture
+{
+	background: url( assets/icilaba-color-culture-orange.gif ) repeat top;
+}
+
+div#global-container div#icilaba-color span
+{
+	position: absolute;
+	top: -2000px;
+	left: -2000px;
+}

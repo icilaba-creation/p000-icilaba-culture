@@ -1,0 +1,235 @@
+<li id="navAccount">
+<a id="navAccountLink" rel="ignore" onclick="this.onclick = function() {CSS.toggleClass(this.parentNode, &#039;openToggler&#039;);return false;}.bind(this);this.onclick();onloadRegister(function(e) {e = e || window.event;e &amp;&amp; Event.stop(e);this.onclick = function(e) {e = e || window.event;e &amp;&amp; Event.prevent(e);Toggler.toggle(this);}.bind(this);this.onclick(e);}.bind(this, event));return false;" href="http://www.facebook.com/editaccount.php?ref=mb&amp;drop">
+Compte
+<img class="img" src="http://static.ak.fbcdn.net/rsrc.php/z12E0/hash/8q2anwu7.gif" width="1" height="1" />
+</a>
+<ul>
+<li id="navAccountInfo" class="clearfix">
+<a href="http://www.facebook.com/fredhannouche" tabindex="-1" id="navAccountPic">
+<img class="img" src="http://profile.ak.fbcdn.net/profile-ak-ash1/profile6/619/32/q765258000_1679.jpg" alt="Frédéric Hannouche" /></a>
+<a href="http://www.facebook.com/fredhannouche" id="navAccountName">Frédéric Hannouche</a>
+</li>
+<li><a href="http://www.facebook.com/friends/?ref=tn">Gérer la liste d’amis</a></li>
+<li><a class="dropdown_item" href="http://www.facebook.com/editaccount.php?ref=mb&amp;drop" accesskey="6">Paramètres du compte</a></li>
+<li><a class="dropdown_item" href="http://www.facebook.com/settings/?tab=privacy&amp;ref=mb" accesskey="7">Paramètres de confidentialité</a></li>
+<li><a class="dropdown_item" href="http://www.facebook.com/editapps.php?ref=mb">Paramètres des applications</a></li>
+<li><a class="dropdown_item" href="http://www.facebook.com/help/?ref=drop">Aide</a></li><li>
+
+
+
+#navAccount{position:relative}
+#navAccount.openToggler,
+.no_js #navAccount:hover{background-color:#fff;border:1px solid #333;border-bottom:0;margin-left:-2px;position:relative;right:-1px;top:-1px}
+#navAccount #navAccountLink{padding-right:16px;zoom:1}
+.openToggler #navAccountLink,
+.no_js #navAccount:hover #navAccountLink{background-color:#fff;color:#333;height:22px;position:relative;z-index:3}
+.openToggler #navAccountLink:hover,
+.openToggler #navAccountLink:focus,
+.openToggler #navAccountLink:active,
+.no_js #navAccountLink:hover{background-color:#fff}
+#navAccountLink img{background:url(/rsrc.php/z7VU4/hash/66ad7upf.png) no-repeat -137px 0;height:4px;left:5px;position:relative;top:-2px;width:7px}
+.openToggler #navAccountLink .dropMenuDivide,
+.no_js #navAccount:hover #navAccountLink .dropMenuDivide{background:#e0e0e0}
+.openToggler #navAccountLink img,
+.no_js #navAccount:hover #navAccountLink img{background-position:-137px -4px}
+#navAccount ul{background:#fff;border:1px solid #333;border-bottom:2px solid #2d4486;display:none;margin-right:-1px;margin-top:-1px;min-width:200px;padding:10px 0 5px;position:absolute;right:0;_right:-1px;top:100%;*width:100%;_width:200px;z-index:1}
+#navAccount.openToggler ul,
+.no_js #navAccount:hover ul{display:block}
+#navAccount ul .logoutButton{display:block}
+#navAccount .logoutButton:hover{text-decoration:none}
+#navAccount .logoutButton input{width:100%;text-align:left;outline:0}
+#navAccount ul a,
+#navAccount ul .logoutButton input{color:#3a579a;display:block;font-weight:normal;height:auto;_margin-right:-25px;padding:4px 10px 5px;white-space:nowrap;*white-space:auto;_white-space:nowrap}
+#navAccount ul a:hover,
+#navAccount ul a:focus,
+#navAccount ul a:active,
+#navAccount .logoutButton:hover input,
+#navAccount .logoutButton input:active,
+#navAccount .logoutButton input:focus{background:#6d84b4;border-bottom:1px solid #3b5998;border-top:1px solid #3b5998;color:#fff;padding:3px 10px 4px;text-decoration:none}
+#navAccount li{display:block;float:none}
+#navAccountInfo{border-bottom:1px solid #e0e0e0;_height:60px;min-height:55px;*min-height:60px;position:relative;margin:5px 4px;padding:0 6px 0 64px}
+ul #navAccountInfo a:hover,
+ul #navAccountInfo a:focus,
+ul #navAccountInfo a:active{background:none;border:none;color:#3b5998;padding:4px 10px 5px;text-decoration:underline}
+#navAccountInfo #navAccountPic{left:-5px;margin:0;position:absolute;top:-9px;*top:-5px}
+#navAccountInfo #navAccountPic img{width:50px;height:50px}
+#navAccount #navAccountName{font-size:13px;font-weight:bold;margin:0;padding:0 !important;*word-wrap:break-word}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#global-container div#header div#express-menu div#language
+{
+	width: 100px;
+	height: 30px;
+	float: right;
+	padding: 0;
+	background: url( assets/btn-map.gif ) no-repeat left;
+}
+
+div#global-container div#header div#express-menu div#language a
+{
+	height: 30px;
+	display: block;
+	overflow: hidden;
+}
+
+div#global-container div#header div#express-menu div#language a span
+{
+	width: 50px;
+	position: relative;
+	top: 10px;
+	left: 50px;
+	display: block;
+}
+
+div#global-container div#header div#express-menu div#language a:focus,
+div#global-container div#header div#express-menu div#language a:hover
+{
+	color: #000;
+	background: url( assets/btn-map.gif ) no-repeat left;
+	background-color: #ffffff;
+	font-style: normal;
+}
+
+div#global-container div#header div#express-menu div#language ul.sub-menu
+{
+	position: absolute;
+	display: none;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style-type: none;
+	z-index: 100;
+}
+
+div#global-container div#header div#express-menu div#language ul.sub-menu li
+{
+	width: 50px;
+	height: 15px;
+	float: none !important;
+	margin: 0 !important;
+	padding: 0 0 0 50px !important;
+	background-color: #ffffff;
+	font-color: #000000;
+	font-style: normal;
+	/*border-top: solid 1px transparent;*/
+}
+
+div#global-container div#header div#express-menu div#language a:hover > ul.sub-menu
+{
+	display: block;
+}
+
+div#global-container div#header div#express-menu div#where-to-see-us
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#global-container div#header div#express-menu ul li a
+{
+	display: block;
+	padding-left: 20px;
+	height: 18px;
+	background: transparent url( ../commons/assets/button-express-left.png ) no-repeat left top;
+	overflow: hidden;
+	color: #fff;
+	line-height: 18px;
+	text-align: left;
+	text-decoration: none;
+}
+
+div#global-container div#header div#express-menu ul li a span
+{
+	display: block;
+	padding-right: 15px;
+	background: transparent url( ../commons/assets/button-express-right.png ) no-repeat right top;
+}
+
+div#global-container div#header div#express-menu ul li a:focus,
+div#global-container div#header div#express-menu ul li a:hover
+{
+	color: #000;
+	font-style: normal;
+	background-position: left bottom;
+}
+
+div#global-container div#header div#express-menu ul li a:focus span,
+div#global-container div#header div#express-menu ul li a:hover span
+{
+	background-position: right bottom;
+}
+
+
+
+
+
+
+
+div#global-container ul li ul.sub-menu
+{
+	position: absolute;
+	display: none;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style-type: none;
+	z-index: 100;
+}
+
+div#global-container ul li ul.sub-menu li
+{
+	float: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-top: solid 1px transparent;
+}
+
+div#global-container ul li:hover > ul.sub-menu
+{
+	display: block;
+}
+

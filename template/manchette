@@ -1,0 +1,54 @@
+#o_manchette {position:relative;width:630px;height:204px;overflow:hidden;font-weight:lighter }
+#o_manchette IMG {float:left;}
+#o_manchette H2 {color:#FFF;position:relative;background:url("/I/sprite-HPC.gif") no-repeat -593px -424px }
+#o_manchette LI {display:block;overflow:hiddden;height:68px;}
+#o_manchette P {background:url('/I/sprite-bck-1px.png?2') repeat-x 0 -2404px;position:absolute;top:0px;right:0px;width:260px;height:59px;font:bold 13px Arial,sans-serif;padding:6px 0px 3px 8px;margin-left:5px;z-index:5}
+#o_manchette P.on {background:url('/I/sprite-bck-1px.png?2') repeat-x 0 -2471px;color:#F50;padding:6px 2px 3px 10px;}
+#o_manchette P:hover {color:#F50;}
+#o_manchette A {color:white;}
+#o_manchette H2 A {color:#FFF;font-size:12px;font-weight:bold }
+#o_manchette H2 A + A {font-size:12px;font-weight:normal }
+#o_manchette H2 A SPAN {display:block;font-size:18px;font-weight:lighter }
+#o_manchette H2 A:hover SPAN {text-decoration:underline }
+
+
+
+
+
+<div id="o_manchette" addRef="alaune">
+	<ul addRef="manchette" affichage="aleatoire">
+		<li addRef="1">
+			<h2 duree="6000">
+				<img src="http://hp3.b.woopic.com/Magic/I/Manchette/189229_365.jpg" alt="" title="" width="365" height="204" href="http://actu.orange.fr/politique/royal-a-sa-fete-de-la-fraternite-unite-et-force-tranquille-deja-tournee-vers-2012_50179.html">
+				<p><a href="http://actu.orange.fr/politique/royal-a-sa-fete-de-la-fraternite-unite-et-force-tranquille-deja-tournee-vers-2012_50179.html">
+					<span>Son "appel &agrave; r&eacute;sister"</span>
+					S&eacute;gol&egrave;ne Royal revient sur le devant de la sc&egrave;ne et repart en campagne</a> | <a href="http://actu.orange.fr">actualit&eacute;</a>
+				</p>
+			</h2>
+		</li>
+		<li addRef="2">
+			<h2 duree="6000">
+				<img src="http://hp3.b.woopic.com/Magic/I/Manchette/189228_365.jpg" alt="Vainqueur hier, l'OM est d&eacute;sormais en 1&egrave;re partie du classement de Ligue 1" title="Vainqueur hier, l'OM est d&eacute;sormais en 1&egrave;re partie du classement de Ligue 1" width="365" height="204" href="http://sports.orange.fr/infos/football/201037/marseille-a-la-provencale_289448.html">
+				<p><a href="http://sports.orange.fr/infos/football/201037/marseille-a-la-provencale_289448.html">
+					<span>Marseille respire</span>
+					Vainqueur hier, l'OM est d&eacute;sormais en 1&egrave;re partie du classement de Ligue 1</a> | <a href="http://sports.orange.fr/">sports</a>
+				</p>
+			</h2>
+		</li>
+		<li addRef="3">
+			<h2 duree="4000">
+				<img src="http://hp3.b.woopic.com/Magic/I/Manchette/189023_365.jpg" alt="Jeux : les Sims 3 en promo exclusive" title="Jeux : les Sims 3 en promo exclusive" width="365" height="204" href="http://jeu.orange.fr/page_promo/">
+				<p><a href="http://jeu.orange.fr/page_promo/">
+					<span>Op&eacute;ration sp&eacute;ciale rentr&eacute;e</span>
+					Retrouvez les Sims 3 et plein d'autres jeux en promo exclusive </a> | <a href="http://jeu.orange.fr/">jeux</a>
+				</p><
+			/h2>
+		</li>
+		<li addRef="4"></li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+manchette.init();
+manchette.launch();
+</script>
